@@ -1,13 +1,13 @@
 {
-  "name": "Hux Blog",
-  "short_name": "Hux Blog",
-  "description": "About an engineer & designer who loves web.",
+  "name": "DebugCat",
+  "short_name": "DebugCat",
+  "description": "知识星球「技术人十年自由路」主理人.",
   "icons": [{
-    "src": "icons/128.png",
+    "src": "icons/128.jpg",
     "sizes": "128x128",
     "type": "image/png"
   }, {
-    "src": "icons/512.png",
+    "src": "icons/512.jpg",
     "sizes": "512x512",
     "type": "image/png"
   }],

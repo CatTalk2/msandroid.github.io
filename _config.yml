@@ -1,9 +1,9 @@
 # Site settings
-title: DebugCat Blog
+title: DebugCat
 SEOTitle: DebugCat
-header-img: img/home-bg.jpg
+header-img: img/home.jpg
 email: 13141459344@163.com
-description: "01"
+description: "知识星球"
 keyword: "android, developer, 铲屎官"
 url: "https://debugcat.cn"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
@@ -15,8 +15,6 @@ RSS: true
 weibo_username:     debugcat
 zhihu_username:     debugcat
 github_username:    msandroid
-twitter_username:   huxpro
-#facebook_username:  huxpro
 # linkedin_username:  firstname-lastname-idxxxx
 
 
@@ -48,7 +46,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: hux
+disqus_username: DebugCat
 
 # Netease setttings
 netease_comment: false
@@ -68,7 +66,7 @@ ga_domain: debugcat.cn
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "01"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /portfolio/images/logo_cat.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -86,11 +84,11 @@ service-worker: true
 
 # Friends
 friends: [
-    {
-        title: "遗留测试",
-        href: "http://ingf.github.io/"
-    },{
-        title: "前端神盾局",
-        href: "http://wepiaofei.github.io/blog/"
-    }
+    # {
+    #     title: "遗留测试",
+    #     href: "http://ingf.github.io/"
+    # },{
+    #     title: "前端神盾局",
+    #     href: "http://wepiaofei.github.io/blog/"
+    # }
 ]
