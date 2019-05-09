@@ -1,15 +1,15 @@
 # Site settings
 title: DebugCat
-SEOTitle: 技术人10年自由路
+SEOTitle: Debugcat的博客 | 技术人10年自由路
 header-img: img/404.png
 email: 13141459344@163.com
 description: "公众号：「DebugCat」 知识星球：「技术人10年自由路」"
-keyword: "android, developer, 铲屎官"
+keyword: "android, developer, 铲屎官，DebugCat, Debugcat的博客，Android源码分析，知识星球，财务自由"
 url: "https://debugcat.cn"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 zsxqurl: "https://wx.zsxq.com/dweb/#/index/222114218181"
 contenturl: ""
-
+           
 
 
 # SNS settings
@@ -68,8 +68,8 @@ ga_domain: debugcat.cn
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: ""
-sidebar-avatar: img/wxgz2.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-sidebar-zsxq-avatar: img/zsxq1.JPG
+sidebar-avatar: /img/wxgz2.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-zsxq-avatar: /img/zsxq1.JPG
 sidebar-zxsq-description: ""
 
 
