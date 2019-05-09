@@ -1,13 +1,15 @@
 # Site settings
 title: DebugCat
 SEOTitle: 技术人10年自由路
-header-img: img/home.jpg
+header-img: img/404.png
 email: 13141459344@163.com
 description: "公众号：「DebugCat」 知识星球：「技术人10年自由路」"
 keyword: "android, developer, 铲屎官"
 url: "https://debugcat.cn"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 zsxqurl: "https://wx.zsxq.com/dweb/#/index/222114218181"
+contenturl: ""
+
 
 
 # SNS settings
