@@ -68,7 +68,7 @@ sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: ""
 sidebar-avatar: img/wxgz2.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 sidebar-zsxq-avatar: img/zsxq1.JPG
-sidebar-zxsq-description: "与他们一起成长"
+sidebar-zxsq-description: ""
 
 
 # Featured Tags
@@ -96,11 +96,11 @@ friends: [
 
 # Hot
 hots: [
-    {
-        title: "好文章",
-        href: "http://ingf.github.io/"
-    },{
-        title: "前端神盾局",
-        href: "http://wepiaofei.github.io/blog/"
-    }
+    # {
+    #     title: "好文章",
+    #     href: "http://ingf.github.io/"
+    # },{
+    #     title: "前端神盾局",
+    #     href: "http://wepiaofei.github.io/blog/"
+    # }
 ]
