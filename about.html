@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "关于"
-description: "技术人员十年自由路_HHHH"
+title: ""
+description: "技术人员十年自由路"
 header-img: "img/home.jpg"
 multilingual: true
 ---
@@ -13,10 +13,10 @@ multilingual: true
 </select> -->
 
 <!-- Chinese Version -->
-<!-- <div class="zh post-container">
+<div class="zh post-container">
     {% capture about_zh %}{% include about/zh.md %}{% endcapture %}
     {{ about_zh | markdownify }}
-</div> -->
+</div>
 
 <!-- English Version -->
 <!-- <div class="en post-container">
@@ -27,15 +27,15 @@ multilingual: true
 
 <!-- {% if site.disqus_username %} -->
 <!-- disqus 评论框 start -->
-<!-- <div class="comment">
+<div class="comment">
     <div id="disqus_thread" class="disqus-thread">
 
     </div>
-</div> -->
+</div>
 <!-- disqus 评论框 end -->
 
 <!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
-<!-- <script type="text/javascript">
+<script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = "{{site.disqus_username}}";
     var disqus_identifier = "{{site.disqus_username}}/{{page.url}}";
@@ -46,6 +46,6 @@ multilingual: true
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
-</script> -->
+</script>
 <!-- disqus 公共JS代码 end -->
-<!-- {% endif %} -->
+{% endif %}
