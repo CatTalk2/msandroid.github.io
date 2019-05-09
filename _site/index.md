@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-## 完蛋玩意
+## 2019
 =======
-## Welcome DebugCat
->>>>>>> 3f7419ba0cbdb8a9531c6932c114a31989c621c8
 
 You can use the [editor on GitHub](https://github.com/msandroid/msandroid.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 

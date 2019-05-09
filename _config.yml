@@ -12,8 +12,8 @@ baseurl: ""                             # for example, '/blog' if your blog host
 
 # SNS settings
 RSS: true
-weibo_username:     debugcat
-zhihu_username:     debugcat
+weibo_username:     msAndroid
+zhihu_username:     msandroid
 github_username:    msandroid
 # linkedin_username:  firstname-lastname-idxxxx
 
@@ -46,7 +46,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: DebugCat
+disqus_username: msandroid
 
 # Netease setttings
 netease_comment: false
@@ -66,12 +66,12 @@ ga_domain: debugcat.cn
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "01"
-sidebar-avatar: /portfolio/images/logo_cat.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: img/logo_cat.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
+featured-tags: false                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
 
