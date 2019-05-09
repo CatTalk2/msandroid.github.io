@@ -5,11 +5,11 @@
   "icons": [{
     "src": "icons/128.jpg",
     "sizes": "128x128",
-    "type": "image/png"
+    "type": "image/jpg"
   }, {
     "src": "icons/512.jpg",
     "sizes": "512x512",
-    "type": "image/png"
+    "type": "image/jpg"
   }],
   "background_color": "#fff",
   "theme_color": "#000",
