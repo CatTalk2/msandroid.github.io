@@ -113,7 +113,7 @@ layout: default
 
                 <!-- Short About -->
                 <section class="visible-md visible-lg">
-                    <hr><h5><a href="{{'/about/' | prepend: site.baseurl }}">ABOUT ME</a></h5>
+                    <hr><h5><a href="{{'/about/' | prepend: site.baseurl }}">公众号</a></h5>
                     <div class="short-about">
                         {% if site.sidebar-avatar %}
                             <img src="{{site.sidebar-avatar}}" />
@@ -122,7 +122,7 @@ layout: default
                             <p>{{site.sidebar-about-description}}</p>
                         {% endif %}
                         <!-- SNS Link -->
-                        <ul class="list-inline">
+                        <!-- <ul class="list-inline">
                             {% if site.RSS %}
                             <li>
                                 <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
@@ -193,16 +193,16 @@ layout: default
                                 </a>
                             </li>
                             {% endif %}
-                        </ul>
+                        </ul> -->
                     </div>
                 </section>
                 <!-- Friends Blog -->
                 {% if site.friends %}
                 <hr>
-                <h5>FRIENDS</h5>
+                <h5>推荐</h5>
                 <ul class="list-inline">
-                    {% for friend in site.friends %}
-                        <li><a href="{{friend.href}}">{{friend.title}}</a></li>
+                    {% for page in site.hots %}
+                        <li><a href="{{page.href}}">{{page.title}}</a></li>
                     {% endfor %}
                 </ul>
                 {% endif %}

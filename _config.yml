@@ -66,8 +66,8 @@ ga_domain: debugcat.cn
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: ""
-sidebar-avatar: img/wxgz.JPG      # use absolute URL, seeing it's used in both `/` and `/about/`
-sidebar-zsxq-avatar: img/zsxq.JPG
+sidebar-avatar: img/wxgz2.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-zsxq-avatar: img/zsxq1.JPG
 sidebar-zxsq-description: "与他们一起成长"
 
 
@@ -92,4 +92,15 @@ friends: [
     #     title: "前端神盾局",
     #     href: "http://wepiaofei.github.io/blog/"
     # }
+]
+
+# Hot
+hots: [
+    {
+        title: "好文章",
+        href: "http://ingf.github.io/"
+    },{
+        title: "前端神盾局",
+        href: "http://wepiaofei.github.io/blog/"
+    }
 ]
