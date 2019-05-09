@@ -5,9 +5,31 @@
     <description>公众号：「DebugCat」 知识星球：「技术人10年自由路」</description>
     <link>https://debugcat.cn/</link>
     <atom:link href="https://debugcat.cn/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 09 May 2019 18:16:29 +0800</pubDate>
-    <lastBuildDate>Thu, 09 May 2019 18:16:29 +0800</lastBuildDate>
+    <pubDate>Thu, 09 May 2019 19:59:07 +0800</pubDate>
+    <lastBuildDate>Thu, 09 May 2019 19:59:07 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Hello</title>
+        <description>&lt;h3 id=&quot;post测试&quot;&gt;Post测试&lt;/h3&gt;
+</description>
+        <pubDate>Thu, 09 May 2019 00:00:00 +0800</pubDate>
+        <link>https://debugcat.cn/2019/05/09/hello/</link>
+        <guid isPermaLink="true">https://debugcat.cn/2019/05/09/hello/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Hell2</title>
+        <description>&lt;h2 id=&quot;22&quot;&gt;22&lt;/h2&gt;
+</description>
+        <pubDate>Thu, 09 May 2019 00:00:00 +0800</pubDate>
+        <link>https://debugcat.cn/2019/05/09/hell2/</link>
+        <guid isPermaLink="true">https://debugcat.cn/2019/05/09/hell2/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Hello 2015</title>
