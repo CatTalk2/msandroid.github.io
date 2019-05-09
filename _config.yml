@@ -51,7 +51,7 @@ kramdown:
 disqus_username: msandroid
 
 # Netease setttings
-netease_comment: false
+netease_comment: true
 
 
 
