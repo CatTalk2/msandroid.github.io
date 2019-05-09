@@ -1,0 +1,19 @@
+{
+  "name": "DebugCat",
+  "short_name": "DebugCat",
+  "description": "知识星球「技术人十年自由路」主理人.",
+  "icons": [{
+    "src": "icons/128.jpg",
+    "sizes": "128x128",
+    "type": "image/jpg"
+  }, {
+    "src": "icons/512.jpg",
+    "sizes": "512x512",
+    "type": "image/jpg"
+  }],
+  "background_color": "#fff",
+  "theme_color": "#000",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}
