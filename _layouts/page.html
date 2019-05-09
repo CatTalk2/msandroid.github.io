@@ -98,6 +98,19 @@ layout: default
                 </section>
                 {% endif %}
 
+                <!-- 知识星球 -->
+                <section class="visible-md visible-lg">
+                    <hr><h5><a href="{{'/知识星球/' | prepend: site.zsxqurl }}">知识星球</a></h5>
+                    <div class="short-about">
+                        {% if site.sidebar-zsxq-avatar %}
+                            <img src="{{site.sidebar-zsxq-avatar}}" />
+                        {% endif %}
+                        {% if site.sidebar-zxsq-description %}
+                            <p>{{site.sidebar-zxsq-description}}</p>
+                        {% endif %}
+                    </div>
+                </section>
+
                 <!-- Short About -->
                 <section class="visible-md visible-lg">
                     <hr><h5><a href="{{'/about/' | prepend: site.baseurl }}">ABOUT ME</a></h5>

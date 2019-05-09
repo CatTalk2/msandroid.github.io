@@ -7,7 +7,7 @@ description: "公众号：「DebugCat」 知识星球：「技术人10年自由�
 keyword: "android, developer, 铲屎官"
 url: "https://debugcat.cn"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
-
+zsxqurl: "https://wx.zsxq.com/dweb/#/index/222114218181"
 
 
 # SNS settings
@@ -67,7 +67,8 @@ ga_domain: debugcat.cn
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: ""
 sidebar-avatar: img/wxgz.JPG      # use absolute URL, seeing it's used in both `/` and `/about/`
-
+sidebar-zsxq-avatar: img/zsxq.JPG
+sidebar-zxsq-description: "与他们一起成长"
 
 
 # Featured Tags
