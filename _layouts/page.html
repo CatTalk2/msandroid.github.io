@@ -36,7 +36,7 @@ layout: default
                 {% if site.featured-tags %}
                 <section>
                     <!-- no hr -->
-                    <h5><a href="{{'/tags/' | prepend: site.baseurl }}">FEATURED TAGS</a></h5>
+                    <h5><a href="{{'/tags/' | prepend: site.baseurl }}">标签</a></h5>
                     <div class="tags">
         				{% for tag in site.tags %}
                             {% if tag[1].size > {{site.featured-condition-size}} %}
@@ -50,11 +50,11 @@ layout: default
                 {% endif %}
 
                 <!-- Friends Blog -->
-                {% if site.friends %}
+                {% if site.hots %}
                 <hr>
-                <h5>FRIENDS</h5>
+                <h5>推荐</h5>
                 <ul class="list-inline">
-                    {% for friend in site.friends %}
+                    {% for friend in site.hots %}
                         <li><a href="{{friend.href}}">{{friend.title}}</a></li>
                     {% endfor %}
                 </ul>
