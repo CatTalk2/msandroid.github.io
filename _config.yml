@@ -98,11 +98,11 @@ friends: [
 
 # Hot
 hots: [
-    # {
-    #     title: "好文章",
-    #     href: "http://ingf.github.io/"
-    # },{
-    #     title: "前端神盾局",
-    #     href: "http://wepiaofei.github.io/blog/"
-    # }
+    {
+        title: "豆瓣专栏《Android进阶指南》",
+        href: "https://read.douban.com/column/5004688/"
+    },{
+        title: "豆瓣专栏《Android程序员算法小册》",
+        href: "https://read.douban.com/column/31395679/"
+    }
 ]
