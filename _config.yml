@@ -99,10 +99,10 @@ friends: [
 # Hot
 hots: [
     {
-        title: "豆瓣专栏《Android进阶指南》",
+        title: "专栏《Android进阶指南》",
         href: "https://read.douban.com/column/5004688/"
     },{
-        title: "豆瓣专栏《Android程序员算法小册》",
+        title: "专栏《Android程序员算法小册》",
         href: "https://read.douban.com/column/31395679/"
     }
 ]
