@@ -57,7 +57,7 @@ netease_comment: false
 # Gitalk settings
 comment_gitalk_clientId: 8f3195fb82a0b9da540b
 comment_gitalk_clientSecret: d2a365d5fea21c6a979f784995183d9311ad954a
-comment_gitalk_repo: https://github.com/msandroid/msandroid.github.io
+comment_gitalk_repo: msandroid.github.io
 github_username: msandroid
 
 
