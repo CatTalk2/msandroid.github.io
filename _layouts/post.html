@@ -133,7 +133,7 @@ layout: default
                 {% if site.featured-tags %}
                 <section>
                     <hr class="hidden-sm hidden-xs">
-                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <h5><a href="/tags/">标签</a></h5>
                     <div class="tags">
         				{% for tag in site.tags %}
                             {% if tag[1].size > {{site.featured-condition-size}} %}
@@ -149,9 +149,9 @@ layout: default
                 <!-- Friends Blog -->
                 {% if site.friends %}
                 <hr>
-                <h5>FRIENDS</h5>
+                <h5>推荐</h5>
                 <ul class="list-inline">
-                    {% for friend in site.friends %}
+                    {% for friend in site.hots %}
                         <li><a href="{{friend.href}}">{{friend.title}}</a></li>
                     {% endfor %}
                 </ul>
@@ -162,39 +162,22 @@ layout: default
 </article>
 
 
-{% if site.netease_comment %}
-<!-- 网易云跟帖JS代码 start -->
-<script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
+<!-- Gitalk start -->
+<div id="gitalk-container"></div> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script> 
 <script>
-  var cloudTieConfig = {
-    url: document.location.href, 
-    sourceId: "",
-    productKey: "de25fc98a6fe48b3bc8a7ae765da99a0",
-    target: "cloud-tie-wrapper"
-  };
-  var yunManualLoad = true;
-  Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true);
-</script>
-<!-- 网易云跟帖JS代码 end -->
-{% endif %}
-
-
-{% if site.disqus_username %}
-<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = "{{site.disqus_username}}";
-    var disqus_identifier = "{{page.id}}";
-    var disqus_url = "{{site.url}}{{page.url}}";
-
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<!-- disqus 公共JS代码 end -->
-{% endif %}
+    var gitalk  = new Gitalk ({
+        id: window.location.pathname,   // Ensure uniqueness and length less than 50
+        clientID: '{ {site.comment_gitalk_clientId} }',
+        clientSecret: '{ {site.comment_gitalk_clientSecret} }',
+        repo: '{ {site.comment_gitalk_repo} }',
+        owner: '{ {site.github_username} }',
+        admin: ['{ {site.github_username} }'],
+            distractionFreeMode: false  // Facebook-like distraction free mode
+    })
+    gitalk.render('gitalk-container')
+</script> 
+<!-- Gitalk end -->
 
 
 {% if site.anchorjs %}
