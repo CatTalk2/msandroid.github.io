@@ -5,9 +5,23 @@
     <description>公众号：「DebugCat」 知识星球：「技术人10年自由路」</description>
     <link>https://debugcat.cn/</link>
     <atom:link href="https://debugcat.cn/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 16 May 2019 17:19:48 +0800</pubDate>
-    <lastBuildDate>Thu, 16 May 2019 17:19:48 +0800</lastBuildDate>
+    <pubDate>Fri, 17 May 2019 11:45:00 +0800</pubDate>
+    <lastBuildDate>Fri, 17 May 2019 11:45:00 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Android SharedPreferences源码解析</title>
+        <description>&lt;h2 id=&quot;android-sharedpreferences源码解析&quot;&gt;Android SharedPreferences源码解析&lt;/h2&gt;
+
+</description>
+        <pubDate>Fri, 17 May 2019 00:00:00 +0800</pubDate>
+        <link>https://debugcat.cn/2019/05/17/Android-SharedPreferences%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90/</link>
+        <guid isPermaLink="true">https://debugcat.cn/2019/05/17/Android-SharedPreferences%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90/</guid>
+        
+        <category>Android多进程</category>
+        
+        
+      </item>
     
       <item>
         <title>Android多进程机制实践</title>
